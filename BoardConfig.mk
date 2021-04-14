@@ -54,7 +54,7 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_SEPARATED_DTBO := true
 
-TARGET_PREBUILT_KERNEL := device/meizu/m1872/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/meizu/16X/prebuilt/Image.gz-dtb
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864

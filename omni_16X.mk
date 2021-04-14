@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := m1872
+PRODUCT_RELEASE_NAME := 16X
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, build/target/product/core_64_bit.mk)
@@ -24,9 +24,9 @@ $(call inherit-product, build/target/product/embedded.mk)
 # Inherit some common MK stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_m1872
+PRODUCT_NAME := omni_16X
 PRODUCT_BRAND := Meizu
-PRODUCT_DEVICE := m1872
+PRODUCT_DEVICE := 16X
 PRODUCT_MANUFACTURER := Meizu
 PRODUCT_MODEL := 16 X
 

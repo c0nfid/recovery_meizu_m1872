@@ -15,4 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_m1872.mk
+    $(LOCAL_DIR)/omni_16X.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_16X-eng
